@@ -24,11 +24,11 @@ git clone https://github.com/aditya-jha13/vision-tasks
 ```bash
 python3 main1.py
 ```
-`main1.py` uses `SIFT Feature Detector` and `BFMatcher Feature Matcher'
+`main1.py` uses `SIFT Feature Detector` and `BFMatcher Feature Matcher`
 ```bash
 python3 main2.py
 ```
-`main2.py` uses `ORB Feature Detector` and `BFMatcher Feature Matcher'
+`main2.py` uses `ORB Feature Detector` and `BFMatcher Feature Matcher`
 ## Demo
 
 ### Input Images
