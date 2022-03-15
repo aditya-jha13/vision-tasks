@@ -7,7 +7,7 @@ Report: [Link](https://docs.google.com/document/d/1kOSYU41aEM0BuxFiCCiIhXmkOMDkU
 ## Requirements
 
 ```bash
-pip install opencv-python
+pip3 install opencv-python
 git clone https://github.com/aditya-jha13/vision-tasks
 ```
 
@@ -24,9 +24,11 @@ git clone https://github.com/aditya-jha13/vision-tasks
 ```bash
 python3 main1.py
 ```
+`main1.py` uses `SIFT Feature Detector` and `BFMatcher Feature Matcher'
 ```bash
 python3 main2.py
 ```
+`main2.py` uses `ORB Feature Detector` and `BFMatcher Feature Matcher'
 ## Demo
 
 ### Input Images
@@ -43,23 +45,19 @@ Transformed Image
 
 Template Image
 
-<img src="assets/3.png" alt="3" width="400"/>
+<img src="images/key1.png" alt="3" width="400"/>
 
 Transformed Image
 
-<img src="assets/4.png" alt="4" width="400"/>
-
-### Matched Keypoints
-
-<img src="assets/5.png" alt="5" width="800"/>
+<img src="images/key2.png" alt="4" width="400"/>
 
 ### Stitched Image
 
-<img src="assets/6.png" alt="6" width="800"/>
+<img src="images/final.png" alt="6" width="800"/>
 
 ## About
 
-`SIFT detectors` are used to detect `Keypoints` and their descriptions, furthermore Descriptor Matches are found using `Brute Force Matcher`. Then `.pt` attribute (Coordinates of Keypoints) are extracted from each Keypoints and a list of individual coordinates is created from matched descriptors for both Images. Finally `Homography Matrix` is found using those matched points and `warp perspective` is applied on the second Image to combine it with the First Image.
+`SIFT detectors` or `ORB detectors` are used to detect `Keypoints` and their descriptions, furthermore Descriptor Matches are found using `Brute Force Matcher`. Then `.pt` attribute (Coordinates of Keypoints) are extracted from each Keypoints and a list of individual coordinates is created from matched descriptors for both Images. Finally `Homography Matrix` is found using those matched points and `warp perspective` is applied on the second Image to combine it with the First Image.
 
 ## Refrences
 
