@@ -35,25 +35,25 @@ python3 main2.py
 
 Template Image
 
-<img src="images/trainimage.jpeg" alt="1" width="400"/>
+<img src="images/trainimage.jpeg" alt="train" width="400"/>
 
 Transformed Image
 
-<img src="images/queryimage.jpeg" alt="2" width="400"/>
+<img src="images/queryimage.jpeg" alt="test" width="400"/>
 
 ### Detected Keypoints
 
 Template Image
 
-<img src="images/key1.png" alt="3" width="400"/>
+<img src="images/key1.png" alt="key1" width="400"/>
 
 Transformed Image
 
-<img src="images/key2.png" alt="4" width="400"/>
+<img src="images/key2.png" alt="key2" width="400"/>
 
 ### Stitched Image
 
-<img src="images/final.png" alt="6" width="800"/>
+<img src="images/final.png" alt="final" width="800"/>
 
 ## About
 
